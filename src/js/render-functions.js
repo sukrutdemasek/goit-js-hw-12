@@ -1,6 +1,6 @@
 import SimpleLightbox from 'simplelightbox';
-
 import 'simplelightbox/dist/simple-lightbox.min.css';
+
 export default function createGallery(data) {
   let galleryList = document.querySelector('.search-results');
   let gallery = new SimpleLightbox('.search-results a');
